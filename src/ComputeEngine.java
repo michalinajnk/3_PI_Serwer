@@ -3,6 +3,7 @@ import compute.Compute;
 import java.math.BigDecimal;
 
 import java.net.MalformedURLException;
+import java.net.UnknownHostException;
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -26,8 +27,8 @@ public class ComputeEngine implements Compute {
         return new BigDecimal("3.14");
     }
 
-    public static void main(String[] args) throws MalformedURLException, RemoteException {
-
+    public static void main(String[] args) throws MalformedURLException, RemoteException, UnknownHostException {
+        MyData.info();
         try {
 
             Registry var1 = LocateRegistry.createRegistry(1099);
