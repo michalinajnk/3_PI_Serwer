@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ComputeEngine" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="ComputeEngine" />
+    <module name="PI_Serwer" />
+    <option name="VM_PARAMETERS" value="-Djava.rmi.server.hostname=25.85.119.134" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

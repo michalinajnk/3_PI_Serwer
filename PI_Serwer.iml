@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/PI_Utilities/out/artifacts/PI_Utilities_jar/PI_Utilities.jar!/" />
+          <root url="jar://$MODULE_DIR$/../3_PI_Utilities/out/artifacts/PI_Utilities_jar/PI_Utilities.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

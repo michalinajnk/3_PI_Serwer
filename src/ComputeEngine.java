@@ -29,6 +29,7 @@ public class ComputeEngine implements Compute {
 
     public static void main(String[] args) throws MalformedURLException, RemoteException, UnknownHostException {
         MyData.info();
+        System.setProperty("java.security.policy","srv.policy");
         try {
 
             Registry var1 = LocateRegistry.createRegistry(1099);
