@@ -28,7 +28,7 @@ public class MyData {
     }
 
     public static void displayName(){
-        System.out.println("Michalina Janik 254564");
+        System.out.println("Jaromir Bączkiewicz 254591");
     }
 
     public static void displayLoggedUser(){
